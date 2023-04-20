@@ -1,0 +1,46 @@
+.header {
+   padding: 30px 0px 20px;
+
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__logo {}
+
+   &__menu {}
+
+   &__nav {}
+
+   &__nav-list {
+      display: flex;
+   }
+
+   &__nav-list-item {
+      &:not(:last-child) {
+         margin-right: 30px;
+      }
+   }
+
+   &__nav-item-link {
+      font-family: 'Stolzl', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #FFFFFF;
+      text-decoration: none;
+   }
+
+   &__btn {}
+}
+
+.nav {
+
+   &__list {}
+
+   &__list-item {}
+
+   &__item-link {}
+}
