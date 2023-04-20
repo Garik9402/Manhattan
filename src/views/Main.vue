@@ -1,6 +1,8 @@
 <template>
    <div class="main">
-      <div class="container"></div>
+      <div class="container" style="color:red;">
+      здравстье
+      </div>
    </div>
 </template>
 

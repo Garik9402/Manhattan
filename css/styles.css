@@ -70,11 +70,22 @@ body {
   flex-direction: column;
 }
 
-.continer {
+.container {
   max-width: 1345px;
   width: 100%;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: "Gotham Pro", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .main {

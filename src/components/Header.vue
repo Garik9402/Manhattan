@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-  <div class="header__inner continer">
+  <div class="header__inner container">
    <a href="#" class="header__logo logo-link">
       <logo />
    </a>
