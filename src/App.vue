@@ -1,25 +1,26 @@
 <template>
    <div class="wrapper">
-      <Header/>
+      <Hero />
       <main class="main">
-         <router-view/>
+         <router-view />
       </main>
-        <Footer />
+      <Footer />
    </div>
 </template>
 
 <script>
-import Footer from './components/Footer.vue';
-import Header from './components/Header.vue';
+import Hero from './components/Hero/Hero.vue'
+import Footer from './components/Footer/Footer.vue';
 import Main from './views/Main.vue';
- export default {
-  components: {
-   Header,
-   Footer,
-  }
+export default {
+   components: {
+      Footer,
+      Hero,
+   }
 
-,
-    Main}
+   ,
+   Main
+}
 </script>
 
 

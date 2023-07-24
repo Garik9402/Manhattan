@@ -8,7 +8,7 @@ const routes = [
       component: Main
    },
    {
-      path: '/Gallery',
+      path: '/',
       name: 'Gallery',
       // route level code- splitting
       // this generates a separate chunk(menu.[hash].js) for this route

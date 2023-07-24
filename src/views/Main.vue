@@ -1,19 +1,18 @@
 <template>
    <div class="main">
       <div class="container" style="color:red;">
-      здравстье
+         здравстье
       </div>
    </div>
 </template>
 
 <script>
-     export default {
-      name:'MainNam',
-      components:{
-      },
+
+export default {
+   name: 'MainNam',
+   components: {
+   },
 }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

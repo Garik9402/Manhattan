@@ -5,20 +5,18 @@
             <Contacts />
          </div>
       </div>
-       
+
    </footer>
 </template>
 
 <script>
-    import Contacts from './Contacts.vue'
-   export default {
-       name: 'myFooter',
-       components: {
-            Contacts,
-       }
-  }
+import Contacts from '../contacts/Contacts.vue'
+export default {
+   name: 'myFooter',
+   components: {
+      Contacts,
+   }
+}
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>
