@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Main from '../views/Main.vue'
+import Gallery from '../views/Gallery.vue'
 
 const routes = [
    {
@@ -8,12 +9,10 @@ const routes = [
       component: Main
    },
    {
-      path: '/',
+      path: '/Gallery',
       name: 'Gallery',
-      // route level code- splitting
-      // this generates a separate chunk(menu.[hash].js) for this route
-      // which is lazy - loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "menu" */ '../views/Gallery.vue')
+      component: Gallery
+
    }
 ]
 

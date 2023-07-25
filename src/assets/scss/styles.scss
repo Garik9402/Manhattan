@@ -1,9 +1,12 @@
 @import './initial/reset';
 @import './initial/fonts';
 @import './initial/mixin';
-@import './header/header';
-@import './btn/btn';
-@import './contacts/contacts';
+@import '../../components/BtnWhite/BtnWhite.scss';
+@import '../../components/Header/Header';
+@import '../../components/Btn/Btn.scss';
+@import '../../components/Contacts/Contacts';
+@import '../../components/Hero/Hero.scss';
+@import '../../components/TheHeroDesc/TheHeroDesc.scss';
 
 body {
    min-height: 100vh;
@@ -32,6 +35,10 @@ body {
    letter-spacing: 0.05em;
    text-transform: uppercase;
    color: #FFFFFF;
+
+   &--fontanka {
+      text-align: start;
+   }
 }
 
 .main {

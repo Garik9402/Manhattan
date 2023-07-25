@@ -1,0 +1,27 @@
+.btn-white {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-family: "Gotham Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+.btn-white--small {
+  max-width: 154px;
+  width: 100%;
+}
+.btn-white--middle {
+  max-width: 244px;
+  width: 100%;
+}
+.btn-white--large {
+  max-width: 260px;
+  width: 100%;
+}

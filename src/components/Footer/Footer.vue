@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Contacts from '../contacts/Contacts.vue'
+import Contacts from '../Contacts/Contacts.vue';
 export default {
    name: 'myFooter',
    components: {

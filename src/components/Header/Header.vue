@@ -13,17 +13,21 @@
                </ul>
             </nav>
          </div>
-         <button class="header__btn btn">бронирование</button>
+         <Btn class="header__btn">
+            <span>бронирование</span>
+         </Btn>
       </div>
    </header>
 </template>
 
 <script>
 import logo from '../Logo/logo.vue';
+import Btn from '../Btn/Btn.vue'
 export default {
    name: 'headerComp',
    components: {
       logo,
+      Btn,
    },
 
    data() {
