@@ -2,6 +2,7 @@
    &__posters {
       max-width: 416px;
       width: 100%;
+      border-radius: 0px 0px 5px 5px;
    }
 
    &__posters-btns {
@@ -34,6 +35,6 @@
       display: flex;
       flex-wrap: wrap;
       gap: 26px;
-
+      border-radius: 0px 0px 5px 5px;
    }
 }

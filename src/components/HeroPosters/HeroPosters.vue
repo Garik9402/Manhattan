@@ -5,7 +5,7 @@
          <button class="hero__posters-btn" :class="{ active: activeSet === 'second' }" @click="showSoonPosters">скоро</button>
       </div>
       <div class="hero__posters-content">
-         <img v-for="( image, index ) in  images " :key="index" :src="image" alt="postersImg">
+         <img v-for="( image, index ) in  images" :key="index" :src="image" alt="postersImg">
       </div>
    </div>
 </template>
@@ -46,8 +46,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .active {
-   background: rgba(213, 98, 29, 0.10)
+   background: rgba(213, 98, 29, 0.10);
 }
 </style>
+
