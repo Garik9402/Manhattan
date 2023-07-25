@@ -6,8 +6,9 @@
       <h1 class="hero__desc-title title title--fontanka">True. Fontanka.<br> Underground.</h1>
    </div>
 </template>
-
+  
 <script>
+
 import BtnWhite from '../BtnWhite/BtnWhite.vue';
 export default {
    components: {

@@ -8,7 +8,9 @@
   justify-content: flex-end;
   background: url(/src/assets/images/hero-dewc-bg.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
   border-radius: 10px;
+  margin-right: 25px;
 }
 .hero__desc-btn {
   margin-bottom: 30px;

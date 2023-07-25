@@ -1,0 +1,39 @@
+.hero {
+   &__posters {
+      max-width: 416px;
+      width: 100%;
+   }
+
+   &__posters-btns {
+      width: 100%;
+      display: flex;
+   }
+
+   &__posters-btn {
+      display: inline-block;
+      width: 100%;
+      border: 0;
+      border-radius: 5px 5px 0px 0px;
+      background: rgba(213, 98, 29, 0.05);
+      font-family: "Gotham Pro", sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 150%;
+      letter-spacing: 0.7px;
+      text-transform: uppercase;
+      color: white;
+      cursor: pointer;
+      padding: 9px 0px;
+      display: flex;
+      justify-content: center;
+   }
+
+   &__posters-content {
+      padding: 39px 35px 37px;
+      background: rgba(213, 98, 29, 0.1);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 26px;
+
+   }
+}
